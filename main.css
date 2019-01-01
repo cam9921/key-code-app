@@ -1,22 +1,30 @@
-body,html {
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: sans-serif;
-}
-
-div {
-    align-items: center;
+    font-weight: lighter;
 }
 
 kbd {
     display: block;
     color: green;
+    font-size: 50px;
 }
 
 .boxed{
-    border: 1px solid green;
+    font-size: 100px;
+    border: 1px solid black;
+    padding: 10px;
+    box-shadow: -1px 1px 13px 1px rgba(0, 0, 0, 0.51);
+    margin: 200px auto 10px auto;
 }
 
-#keyButton {
-    color: green;
+#contents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    margin: 5px auto;
+    width: 300px;
 }
